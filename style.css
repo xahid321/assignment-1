@@ -158,6 +158,7 @@ main {
 }
 
 .newsletter {
+    width: 80%;
     display: flex;
     margin-top: 80px;
     justify-content: space-between;
@@ -165,9 +166,35 @@ main {
 }
 
 .newsletter h2 {
+    font-weight: bolder;
+    font-size: 97px;
 }
 
 .newsletter Form {
     display: flex;
     flex-direction: column;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h2 {
+    text-align: center;
+    color: #4e47ff;
+    font-size: 100px;
+    padding: 0px;
+}
+
+footer p {
+    font-weight: lighter;
+    color: #8987a1;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #8987a1;
 }
